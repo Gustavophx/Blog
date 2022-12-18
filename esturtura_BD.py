@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Criar uma instância de SQLAlchemy
 # Use valores que sejam dificeis de desobrir
 app.config['SECRET_KEY'] = 'FGS21515##$'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:DlsUwraPEMesfUOoPzci@containers-us-west-31.railway.app:7572/railway'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:BP7L72m92WCvHCJI5RB9@containers-us-west-157.railway.app:7344/railway'
 # sqlite:/// e Local host, seguido do nome do bando de dados que desejamos mais .db
 
 # Caso queira saber o Banco de dados pesquise no Google Connection string oracle/sql server ou nome do banco de dados
